@@ -27,19 +27,21 @@ box-shadow: 12px 10px 27px -5px #000000;
 
 
 .container h1 {
-    font-family:Cambria, serif;
+    font-family:Poppins, Bold;
     padding: 5px;    
 }
 
 .container p {
-    font-family:Impact, sans-serif;
+    font-family:Roboto, Regular;
     border: 2px;
     padding: 15px;
 
 }
 
 .container button {
+    font-family: 'Franklin Gothic Medium', sans-serif;
     background: #02E08B;
     padding: 10px;
     border-radius: 10px;
 }
+

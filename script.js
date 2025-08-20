@@ -1,5 +1,8 @@
-function geradordefrases() {
-    const frases = [
+const gerador = document.getElementById('gerador'); 
+
+gerador.addEventListener('click', function(geradordefrases) {
+
+        var frases = [
 "Minha roupa de academia se rebelou e fugiu do varal",
 
 "Descobri que meu horóscopo diz pra evitar suor hoje",
@@ -14,12 +17,21 @@ function geradordefrases() {
 
 "A gravidade tá mais forte hoje, não dá pra levantar",
 
-"Minha playlist de treino foi sequestrada pelo Spotify",
+"Minha playlist de treino foi sequestrada pelo Spotify e sem ela não rola",
 
 "Tô em uma missão secreta pra testar o sofá",
 
 "O universo me mandou um sinal pra comer pizza hoje",
-  ];
-    }
 
-    
+];
+  
+var numerodafrase = Math.floor(Math.random() * frases.length);
+
+var frasealeatoria = frases[numerodafrase];
+
+document.getElementById("displaydafrase").innerHTML = frasealeatoria;
+
+console.log (frasealeatoria)
+
+    });
+
