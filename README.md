@@ -41,7 +41,7 @@ gerador-desculpas-academia/
 2. Abra o `index.html` no navegador.  
 3. Clique no botão e veja a desculpa aparecer!  
 
-Ou acesse direto aqui: **[link do GitHub Pages](https://seu-usuario.github.io/gerador-desculpas-academia)**  
+Ou acesse direto aqui: **[link do GitHub Pages](https://rinzuraa.github.io/gerador-de-desculpas-para-nao-ir-para-academia/)**  
 
 ---
 
