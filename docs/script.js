@@ -24,15 +24,13 @@ gerador.addEventListener("click", function (geradordefrases) {
     "O universo me mandou um sinal pra comer pizza hoje",
   ];
 
-  var numerodafrase = Math.floor(Math.random() * frases.length);
-
-  som.play().catch((error) => {
-    console.error("Erro ao tocar o som:", error);
-  });
+  var numerodafrase = Math.floor(Math.random() * frases.length); 
 
   var frasealeatoria = frases[numerodafrase];
 
   document.getElementById("displaydafrase").innerHTML = frasealeatoria;
 
-  console.log(frasealeatoria);
+  som.play().catch((error) => {
+    console.error("Erro ao tocar o som:", error);
+  });
 });
