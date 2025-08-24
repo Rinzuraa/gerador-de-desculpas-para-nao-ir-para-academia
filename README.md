@@ -24,13 +24,18 @@ Bem-vindo ao **Gerador de Desculpas para Faltar à Academia**, um projetinho div
 ## 📂 Estrutura
 
 ```plaintext
-gerador-desculpas-academia/
-├── index.html        # Página principal do site
-├── css/
-│   └── styles.css    # Estilos do site
-├── js/
-│   └── script.js     # Lógica para gerar desculpas
-└── README.md         # Documentação do projeto
+gerador-de-desculpas-para-nao-ir-para-academia/
+├── docs/
+│   ├── index.html         # Página principal do site
+│   ├── css/
+│   │   └── style.css      # Estilos do site
+│   ├── js/
+│   │   └── script.js      # Lógica para gerar desculpas
+│   └── assets/
+│       ├── images/        # Imagens do projeto
+│       └── sounds/        # Sons do projeto
+├── LICENSE                # Licença do projeto
+└── README.md              # Documentação do projeto
 ```
 
 
@@ -41,7 +46,7 @@ gerador-desculpas-academia/
 2. Abra o `index.html` no navegador.  
 3. Clique no botão e veja a desculpa aparecer!  
 
-Ou acesse direto aqui: **[link do GitHub Pages](https://seu-usuario.github.io/gerador-desculpas-academia)**  
+Ou acesse direto aqui: **[link do GitHub Pages](https://rinzuraa.github.io/gerador-de-desculpas-para-nao-ir-para-academia/)**  
 
 ---
 
@@ -49,7 +54,7 @@ Ou acesse direto aqui: **[link do GitHub Pages](https://seu-usuario.github.io/ge
 - Compartilhar desculpa direto no WhatsApp ou X.  
 - Usuários poderem enviar suas próprias desculpas.  
 - Temas visuais (modo noturno e novos temas).  
-- Adição de música e efeitos sonoros
+- Adição de músicas ou novos efeitos sonoros
 - Integração com Inteligência Artificial
 
 ---
