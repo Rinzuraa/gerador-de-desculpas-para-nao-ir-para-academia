@@ -14,8 +14,8 @@ Bem-vindo ao **Gerador de Desculpas para Faltar à Academia**, um projetinho div
 ---
 
 ## 🛠️ Tecnologias
-- **HTML5**  
-- **CSS3** 
+- **HTML**  
+- **CSS** 
 - **JavaScript** (lógica das frases)  
 - **GitHub Pages** (deploy)  
 
